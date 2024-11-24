@@ -1,8 +1,0 @@
-Entrypoint [1mmain[39m[22m =
-chunk (runtime: main) (main) [1m[33m[entry][39m[22m
-
-[1m[31mERROR[39m[22m in [1m[32mmain[39m[22m
-[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './apps/data-api/src/main.ts' in 'C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\apps\data-api'[39m[22m
-
-webpack compiled with [1m[31m1 error[39m[22m (01ab89dba22143cba2ab)
-[1m[31mBuild failed, waiting for changes to restart...[39m[22m
