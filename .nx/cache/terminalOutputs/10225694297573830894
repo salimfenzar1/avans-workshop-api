@@ -1,0 +1,142 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 44.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b0fdbc5b4ec3e07f)
+[1m[31mDebugger listening on ws://localhost:9229/35edf698-1ddb-4c4b-ac85-6dabefba0680[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/35edf698-1ddb-4c4b-ac85-6dabefba0680[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mAn error occured while creating pruned lockfile[39m
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   To prevent the build from breaking we are returning the root lock file.
+   If you run `npm install --package-lock-only` in your output folder it will regenerate the correct pruned lockfile.
+   
+Original error: Target project does not exist: npm:isarray@1.0.0
+
+
+   Error: Target project does not exist: npm:isarray@1.0.0
+    at validateCommonDependencyRules (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:323:15)
+    at validateDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at ProjectGraphBuilder.addDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:190:9)
+    at ProjectGraphBuilder.addStaticDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:89:14)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:81:17
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:80:9
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 44.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ca6ab9eea6610a7b)
+[1m[31mDebugger listening on ws://localhost:9229/1efde707-315b-441f-93ff-752cb476e624[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1efde707-315b-441f-93ff-752cb476e624[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mAn error occured while creating pruned lockfile[39m
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   To prevent the build from breaking we are returning the root lock file.
+   If you run `npm install --package-lock-only` in your output folder it will regenerate the correct pruned lockfile.
+   
+Original error: Target project does not exist: npm:isarray@1.0.0
+
+
+   Error: Target project does not exist: npm:isarray@1.0.0
+    at validateCommonDependencyRules (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:323:15)
+    at validateDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at ProjectGraphBuilder.addDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:190:9)
+    at ProjectGraphBuilder.addStaticDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:89:14)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:81:17
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:80:9
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 44.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f804b0e5b080c51e)
+[1m[31mDebugger listening on ws://localhost:9229/23345fc1-6c72-46f4-a916-abd860391da8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/23345fc1-6c72-46f4-a916-abd860391da8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mAn error occured while creating pruned lockfile[39m
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   To prevent the build from breaking we are returning the root lock file.
+   If you run `npm install --package-lock-only` in your output folder it will regenerate the correct pruned lockfile.
+   
+Original error: Target project does not exist: npm:isarray@1.0.0
+
+
+   Error: Target project does not exist: npm:isarray@1.0.0
+    at validateCommonDependencyRules (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:323:15)
+    at validateDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at ProjectGraphBuilder.addDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:190:9)
+    at ProjectGraphBuilder.addStaticDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:89:14)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:81:17
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:80:9
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (06daa4688f72fd89)
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mAn error occured while creating pruned lockfile[39m
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   To prevent the build from breaking we are returning the root lock file.
+   If you run `npm install --package-lock-only` in your output folder it will regenerate the correct pruned lockfile.
+   
+Original error: Target project does not exist: npm:isarray@1.0.0
+
+
+   Error: Target project does not exist: npm:isarray@1.0.0
+    at validateCommonDependencyRules (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:323:15)
+    at validateDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at ProjectGraphBuilder.addDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:190:9)
+    at ProjectGraphBuilder.addStaticDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:89:14)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:81:17
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:80:9
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e816179823160b00)
+[1m[31mDebugger listening on ws://localhost:9229/4a7d0fad-fcf3-42c8-947a-2a383b5aed41[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4a7d0fad-fcf3-42c8-947a-2a383b5aed41[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mAn error occured while creating pruned lockfile[39m
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   To prevent the build from breaking we are returning the root lock file.
+   If you run `npm install --package-lock-only` in your output folder it will regenerate the correct pruned lockfile.
+   
+Original error: Target project does not exist: npm:isarray@1.0.0
+
+
+   Error: Target project does not exist: npm:isarray@1.0.0
+    at validateCommonDependencyRules (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:323:15)
+    at validateDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at ProjectGraphBuilder.addDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:190:9)
+    at ProjectGraphBuilder.addStaticDependency (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\project-graph\project-graph-builder.js:89:14)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:81:17
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+    at C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:80:9
+    at Array.forEach (<anonymous>)
+    at traverseNode (C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\nx\src\plugins\js\lock-file\project-graph-pruning.js:78:36)
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2bd2ee2a7aa3aa5)
+[1m[31mDebugger listening on ws://localhost:9229/4329ab3d-2827-4d2a-8c39-bd9da5b39f19[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4329ab3d-2827-4d2a-8c39-bd9da5b39f19[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

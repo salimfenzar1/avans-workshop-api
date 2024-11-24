@@ -1,0 +1,87 @@
+[36m-[39m Generating browser application bundles (phase: setup)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m2.35 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m536.85 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m333.04 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mscripts.js[39m[37m           [2m | [22mscripts      [2m | [22m [96m78.87 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m [96m64.20 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m3.35 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-18T12:26:22.988Z[39m[37m[22m - Hash: [1m[37m51aed00ba0583777[39m[37m[22m - Time: [1m[37m2842[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/my-app/src/app/app.routes.ts[39m[31m[0m:[0m[93m32:13-29[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'ColumnsComponent' (imported as 'ColumnsComponent') was not found in '@avans-nx-workshop/features' (possible exports: FeaturesModule, UserDetailsComponent, UserEditComponent, UserListComponent)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/my-app/src/app/app.routes.ts[0m:[93m4[0m:[93m70[0m - [91merror[0m[90m TS2305: [0mModule '"@avans-nx-workshop/features"' has no exported member 'ColumnsComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m4[0m import { UserDetailsComponent, UserEditComponent, UserListComponent, ColumnsComponent } from '@avans-nx-workshop/features';[39m[22m
+[1m[31m[7m [0m [91m                                                                     ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/my-app/src/app/app.routes.ts[0m:[93m20[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m     { path: '**', redirectTo: 'dashboard'}[39m[22m
+[1m[31m[7m  [0m [91m    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mlibs/frontend/features/src/lib/columns/columns.component.html[0m:[93m6[0m:[93m13[0m - [91merror[0m[90m NG8001: [0m'app-list' is not a known element:[39m[22m
+[1m[31m1. If 'app-list' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'app-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m             <app-list></app-list>[39m[22m
+[1m[31m[7m [0m [91m            ~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mlibs/frontend/features/src/lib/columns/columns.component.ts[0m:[93m5[0m:[93m18[0m[39m[22m
+[1m[31m    [7m5[0m     templateUrl: './columns.component.html',[39m[22m
+[1m[31m    [7m [0m [96m                 ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component ColumnsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m64.20 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-18T12:33:58.651Z[39m[37m[22m - Hash: [1m[37m74d10c54ae0dc45f[39m[37m[22m - Time: [1m[37m287[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/my-app/src/app/app.routes.ts[39m[31m[0m:[0m[93m32:13-29[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'ColumnsComponent' (imported as 'ColumnsComponent') was not found in '@avans-nx-workshop/features' (possible exports: FeaturesModule, UserDetailsComponent, UserEditComponent, UserListComponent)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/my-app/src/app/app.routes.ts[0m:[93m4[0m:[93m70[0m - [91merror[0m[90m TS2305: [0mModule '"@avans-nx-workshop/features"' has no exported member 'ColumnsComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m4[0m import { UserDetailsComponent, UserEditComponent, UserListComponent, ColumnsComponent } from '@avans-nx-workshop/features';[39m[22m
+[1m[31m[7m [0m [91m                                                                     ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/my-app/src/app/app.routes.ts[0m:[93m20[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m     { path: '**', redirectTo: 'dashboard'}[39m[22m
+[1m[31m[7m  [0m [91m    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mlibs/frontend/features/src/lib/columns/columns.component.html[0m:[93m6[0m:[93m13[0m - [91merror[0m[90m NG8001: [0m'app-list' is not a known element:[39m[22m
+[1m[31m1. If 'app-list' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'app-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m             <app-list></app-list>[39m[22m
+[1m[31m[7m [0m [91m            ~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mlibs/frontend/features/src/lib/columns/columns.component.ts[0m:[93m5[0m:[93m18[0m[39m[22m
+[1m[31m    [7m5[0m     templateUrl: './columns.component.html',[39m[22m
+[1m[31m    [7m [0m [96m                 ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component ColumnsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m

@@ -1,0 +1,58 @@
+[36m-[39m Generating browser application bundles (phase: setup)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m2.64 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m539.48 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m331.92 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m[96m117.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mscripts.js[39m[37m           [2m | [22mscripts      [2m | [22m [96m78.87 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m3.69 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-22T11:39:39.543Z[39m[37m[22m - Hash: [1m[37m13261511f393a3fb[39m[37m[22m - Time: [1m[37m5351[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/my-app/src/styles.scss[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/sass-loader/dist/cjs.js):[39m[22m
+[1m[31mCan't find stylesheet to import.[39m[22m
+[1m[31m  ╷[39m[22m
+[1m[31m2 │ @import "~bootstrap/scss/bootstrap";[39m[22m
+[1m[31m  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m[22m
+[1m[31m  ╵[39m[22m
+[1m[31m  apps\my-app\src\styles.scss 2:9  root stylesheet[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/my-app/src/styles.scss?ngGlobalStyle[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):[39m[22m
+[1m[31mHookWebpackError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):[39m[22m
+[1m[31mCan't find stylesheet to import.[39m[22m
+[1m[31m  ╷[39m[22m
+[1m[31m2 │ @import "~bootstrap/scss/bootstrap";[39m[22m
+[1m[31m  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m[22m
+[1m[31m  ╵[39m[22m
+[1m[31m  apps\my-app\src\styles.scss 2:9  root stylesheet[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m  [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles [2m | [22m[96m801.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime[2m | [22m  [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-22T11:40:35.682Z[39m[37m[22m - Hash: [1m[37m31462a98ae2cb0b8[39m[37m[22m - Time: [1m[37m3679[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-22T11:41:59.504Z[39m[37m[22m - Hash: [1m[37m2a195e08f162e85a[39m[37m[22m - Time: [1m[37m2546[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m

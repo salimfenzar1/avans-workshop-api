@@ -1,0 +1,405 @@
+[36m-[39m Generating browser application bundles (phase: setup)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m\[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m4.26 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m535.42 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m331.98 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m[96m102.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mscripts.js[39m[37m           [2m | [22mscripts      [2m | [22m [96m78.87 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m5.29 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T10:37:07.331Z[39m[37m[22m - Hash: [1m[37m1158240bec86a0d3[39m[37m[22m - Time: [1m[37m2758[39m[37m[22mms[0m[39m
+[1m[33m[39m[22m
+[1m[33m[0m[36m./node_modules/@nestjs/common/utils/load-package.util.js[39m[33m[0m:[0m[93m12:35-55[39m[33m[0m - [0m[33mWarning: [39m[33m[0mCritical dependency: the request of a dependency is an expression[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\libs\shared\api\src\lib\models\user.service.ts depends on '@nestjs/common'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\common\IsLatLong.js depends on 'validator/lib/isLatLong'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\number\IsDivisibleBy.js depends on 'validator/lib/isDivisibleBy'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\Contains.js depends on 'validator/lib/contains'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsAlpha.js depends on 'validator/lib/isAlpha'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator[39m[22m[1m[33m\string\IsAlphanumeric.js depends on 'validator/lib/isAlphanumeric'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsAscii.js depends on 'validator/lib/isAscii'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsBIC.js depends on 'validator/lib/isBIC'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsBase32.js depends on 'validator/lib/isBase32'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsBase58.js depends on 'validator/lib/isBase58'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsBase64.js depends on 'validator/lib/isBase64'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-v[39m[22m[1m[33malidator\esm2015\decorator\string\IsBooleanString.js depends on 'validator/lib/isBoolean'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsBtcAddress.js depends on 'validator/lib/isBtcAddress'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsByteLength.js depends on 'validator/lib/isByteLength'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsCreditCard.js depends on 'validator/lib/isCreditCard'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsCurrency.js depends on 'validator/lib/isCurrency'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsDataURI.js depends on 'validator/lib/isDataURI'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\a[39m[22m[1m[33mvans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsDecimal.js depends on 'validator/lib/isDecimal'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsEAN.js depends on 'validator/lib/isEAN'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsEmail.js depends on 'validator/lib/isEmail'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsEthereumAddress.js depends on 'validator/lib/isEthereumAddress'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsFQDN.js depends on 'validator/lib/isFQDN'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsFullWidth.js depends on 'validator/lib/isFullWidth'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWa[39m[22m[1m[33mrning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsHSL.js depends on 'validator/lib/isHSL'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsHalfWidth.js depends on 'validator/lib/isHalfWidth'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsHash.js depends on 'validator/lib/isHash'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsHexColor.js depends on 'validator/lib/isHexColor'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsHexadecimal.js depends on 'validator/lib/isHexadecimal'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsIBAN.js depends on 'validator/lib/isIBAN'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-common[39m[22m[1m[33mjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsIP.js depends on 'validator/lib/isIP'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsISBN.js depends on 'validator/lib/isISBN'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsISIN.js depends on 'validator/lib/isISIN'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsISO8601.js depends on 'validator/lib/isISO8601'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsISO31661Alpha2.js depends on 'validator/lib/isISO31661Alpha2'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsISO31661Alpha3.js depends on 'validator/lib/isISO31661Alpha3'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://a[39m[22m[1m[33mngular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsISRC.js depends on 'validator/lib/isISRC'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsISSN.js depends on 'validator/lib/isISSN'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsIdentityCard.js depends on 'validator/lib/isIdentityCard'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsJSON.js depends on 'validator/lib/isJSON'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsJWT.js depends on 'validator/lib/isJWT'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsLocale.js depends on 'validator/lib/isLocale'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more inf[39m[22m[1m[33mo see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsLowercase.js depends on 'validator/lib/isLowercase'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsMacAddress.js depends on 'validator/lib/isMACAddress'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsMagnetURI.js depends on 'validator/lib/isMagnetURI'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsMimeType.js depends on 'validator/lib/isMimeType'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsMobilePhone.js depends on 'validator/lib/isMobilePhone'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsMongoId.js depends on 'validator/lib/isMongoId'. CommonJS or AMD [39m[22m[1m[33mdependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsMultibyte.js depends on 'validator/lib/isMultibyte'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsNumberString.js depends on 'validator/lib/isNumeric'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsOctal.js depends on 'validator/lib/isOctal'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsPassportNumber.js depends on 'validator/lib/isPassportNumber'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsPort.js depends on 'validator/lib/isPort'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsPostalCode.js depe[39m[22m[1m[33mnds on 'validator/lib/isPostalCode'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsRFC3339.js depends on 'validator/lib/isRFC3339'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsRgbColor.js depends on 'validator/lib/isRgbColor'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsSemVer.js depends on 'validator/lib/isSemVer'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsStrongPassword.js depends on 'validator'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsSurrogatePair.js depends on 'validator/lib/isSurrogatePair'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\[39m[22m[1m[33mesm2015\decorator\string\IsUUID.js depends on 'validator/lib/isUUID'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsUppercase.js depends on 'validator/lib/isUppercase'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsUrl.js depends on 'validator/lib/isURL'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\IsVariableWidth.js depends on 'validator/lib/isVariableWidth'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\Length.js depends on 'validator/lib/isLength'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\Matches.js depends on 'validator/lib/matches'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\n[39m[22m[1m[33mode_modules\class-validator\esm2015\decorator\string\is-iso4217-currency-code.js depends on 'validator/lib/isISO4217'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\class-validator\esm2015\decorator\string\is-tax-id.js depends on 'validator/lib/isTaxID'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./node_modules/@nestjs/common/file-stream/streamable-file.js[39m[31m[0m:[0m[93m7:17-34[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve 'stream' in 'C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\@nestjs\common\file-stream'[39m[22m
+[1m[31m[39m[22m
+[1m[31mBREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.[39m[22m
+[1m[31mThis is no longer the case. Verify if you need this module and configure a polyfill for it.[39m[22m
+[1m[31m[39m[22m
+[1m[31mIf you want to include a polyfill, you need to:[39m[22m
+[1m[31m	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'[39m[22m
+[1m[31m	- install 'stream-browserify'[39m[22m
+[1m[31mIf you don't want to include a polyfill, you can use an empty module like this:[39m[22m
+[1m[31m	resolve.fallback: { "stream": false }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./node_modules/@nestjs/common/file-stream/streamable-file.js[39m[31m[0m:[0m[93m8:15-30[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve 'util' in 'C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\@nestjs\common\file-stream'[39m[22m
+[1m[31m[39m[22m
+[1m[31mBREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.[39m[22m
+[1m[31mThis is no longer the case. Verify if you need this module and configure a polyfill for it.[39m[22m
+[1m[31m[39m[22m
+[1m[31mIf you want to include a polyfill, you need to:[39m[22m
+[1m[31m	- add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'[39m[22m
+[1m[31m	- install 'util'[39m[22m
+[1m[31mIf you don't want to include a polyfill, you can use an empty module like this:[39m[22m
+[1m[31m	resolve.fallback: { "util": false }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./node_modules/@nestjs/common/pipes/validation.pipe.js[39m[31m[0m:[0m[93m10:15-30[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve 'util' in 'C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\@nestjs\common\pipes'[39m[22m
+[1m[31m[39m[22m
+[1m[31mBREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.[39m[22m
+[1m[31mThis is no longer the case. Verify if you need this module and configure a polyfill for it.[39m[22m
+[1m[31m[39m[22m
+[1m[31mIf you want to include a polyfill, you need to:[39m[22m
+[1m[31m	- add[39m[22m[1m[31m a fallback 'resolve.fallback: { "util": require.resolve("util/") }'[39m[22m
+[1m[31m	- install 'util'[39m[22m
+[1m[31mIf you don't want to include a polyfill, you can use an empty module like this:[39m[22m
+[1m[31m	resolve.fallback: { "util": false }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m-[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor   [2m | [22m  [96m2.64 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles   [2m | [22m[96m535.36 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills[2m | [22m[96m331.92 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain     [2m | [22m [96m94.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime  [2m | [22m  [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m1 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T10:37:22.383Z[39m[37m[22m - Hash: [1m[37m419b5844a0ed7787[39m[37m[22m - Time: [1m[37m2115[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m  [96m4.26 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m102.42 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m  [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T10:39:14.754Z[39m[37m[22m - Hash: [1m[37m408c6b585cff95f6[39m[37m[22m - Time: [1m[37m1175[39m[37m[22mms[0m[39m
+[1m[33m[39m[22m
+[1m[33m[0m[36m./node_modules/@nestjs/common/utils/load-package.util.js[39m[33m[0m:[0m[93m12:35-55[39m[33m[0m - [0m[33mWarning: [39m[33m[0mCritical dependency: the request of a dependency is an expression[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./node_modules/@nestjs/common/file-stream/streamable-file.js[39m[31m[0m:[0m[93m7:17-34[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve 'stream' in 'C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\@nestjs\common\file-stream'[39m[22m
+[1m[31m[39m[22m
+[1m[31mBREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.[39m[22m
+[1m[31mThis is no longer the case. Verify if you need this module and configure a polyfill for it.[39m[22m
+[1m[31m[39m[22m
+[1m[31mIf you want to include a polyfill, you need to:[39m[22m
+[1m[31m	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'[39m[22m
+[1m[31m	- install 'stream-browserify'[39m[22m
+[1m[31mIf you don't want to include a polyfill, you can use an empty module like this:[39m[22m
+[1m[31m	resolve.fallback: { "stream": false }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./node_modules/@nestjs/common/file-stream/streamable-file.js[39m[31m[0m:[0m[93m8:15-30[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve 'util' in 'C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\@nestjs\common\file-stream'[39m[22m
+[1m[31m[39m[22m
+[1m[31mBREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.[39m[22m
+[1m[31mThis is no longer the case. Verify if you need this module and configure a polyfill for it.[39m[22m
+[1m[31m[39m[22m
+[1m[31mIf you want to include a polyfill, you need to:[39m[22m
+[1m[31m	- add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'[39m[22m
+[1m[31m	- install 'util'[39m[22m
+[1m[31mIf you don't want to include a polyfill, you can use an empty module like this:[39m[22m
+[1m[31m	resolve.fallback: { "util": false }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./node_modules/@nestjs/common/pipes/validation.pipe.js[39m[31m[0m:[0m[93m10:15-30[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve 'util' in 'C:\Users\salim\Dev\avans-nx-workshop-2024\avans-nx-workshop\node_modules\@nestjs\common\pipes'[39m[22m
+[1m[31m[39m[22m
+[1m[31mBREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.[39m[22m
+[1m[31mThis is no longer the case. Verify if you need this module and configure a polyfill for it.[39m[22m
+[1m[31m[39m[22m
+[1m[31mIf you want to include a polyfill, you need to:[39m[22m
+[1m[31m	- add[39m[22m[1m[31m a fallback 'resolve.fallback: { "util": require.resolve("util/") }'[39m[22m
+[1m[31m	- install 'util'[39m[22m
+[1m[31mIf you don't want to include a polyfill, you can use an empty module like this:[39m[22m
+[1m[31m	resolve.fallback: { "util": false }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m/[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m2.64 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m95.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T10:39:45.516Z[39m[37m[22m - Hash: [1m[37m68b03a889ed7097a[39m[37m[22m - Time: [1m[37m820[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m/[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m6 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T10:47:12.333Z[39m[37m[22m - Hash: [1m[37m68b03a889ed7097a[39m[37m[22m - Time: [1m[37m1705[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m|[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m95.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T10:48:34.831Z[39m[37m[22m - Hash: [1m[37mca5038861e2044f0[39m[37m[22m - Time: [1m[37m1153[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m94.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T10:49:52.895Z[39m[37m[22m - Hash: [1m[37mb943e84ea9baf84d[39m[37m[22m - Time: [1m[37m353[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m\[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m95.47 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T12:29:19.692Z[39m[37m[22m - Hash: [1m[37m1a52493b54fb8259[39m[37m[22m - Time: [1m[37m3126[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m-[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m95.95 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T12:31:17.891Z[39m[37m[22m - Hash: [1m[37mec15884d24642411[39m[37m[22m - Time: [1m[37m1042[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T12:32:54.375Z[39m[37m[22m - Hash: [1m[37m0c61965b35072bf7[39m[37m[22m - Time: [1m[37m829[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.24 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-11-20T12:34:29.935Z[39m[37m[22m - Hash: [1m[37mce5579e43cf9c227[39m[37m[22m - Time: [1m[37m611[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
