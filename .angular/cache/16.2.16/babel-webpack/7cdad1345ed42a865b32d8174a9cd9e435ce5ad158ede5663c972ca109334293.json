@@ -1,1 +1,0 @@
-{"ast":null,"code":"export {};","map":{"version":3,"names":[],"sources":["C:\\Users\\salim\\Dev\\avans-nx-workshop-2024\\avans-nx-workshop\\libs\\shared\\api\\src\\lib\\models\\id.type.ts"],"sourcesContent":["export type Id = string;\r\nexport type IResourceId = { _id: Id };\r\n"],"mappings":"","ignoreList":[]},"metadata":{},"sourceType":"module","externalDependencies":[]}
